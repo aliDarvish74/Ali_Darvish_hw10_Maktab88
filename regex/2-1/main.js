@@ -5,6 +5,7 @@ const passwordFormat =
 
 const formValidator = () => {
   $(".form-text").removeClass("text-danger");
+
   if (!$("#firstName").val().trim().match(nameFormat)) {
     $("#firstNameHelp").addClass("text-danger");
   }
