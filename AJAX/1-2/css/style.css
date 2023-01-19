@@ -1,0 +1,19 @@
+input:disabled {
+  color: #eee;
+}
+input:disabled::placeholder {
+  color: #eee;
+}
+
+span,
+input {
+  text-transform: capitalize;
+}
+
+#createBtn {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  transform: rotate(270deg);
+  top: 50%;
+  right: -4%;
+}
