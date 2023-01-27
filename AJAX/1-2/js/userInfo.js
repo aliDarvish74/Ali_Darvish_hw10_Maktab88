@@ -111,7 +111,8 @@ const renderUpdate = (id) => {
 };
 
 const emailFormat = /^\w+\.*\w*@\w{2,}\.\w{2,}$/gm;
-const nameFormat = /^[A-Za-z]+$/gm;
+const nameFormat = /^([A-Za-z])+$/gm;
+
 const updateUser = (id) => {
   let message = "";
   for (const input of $("#userInfo input")) {

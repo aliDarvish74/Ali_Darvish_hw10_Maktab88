@@ -89,11 +89,11 @@ $(() => {
           },
         });
       }
+
       //     $.ajax({
       //       url: $("#urlInput").val(),
       //       type: $("#typeSelector").val(),
       //       data: $("#requestBody").val(),
-      //       contentType: "application/json",
       //       success: function (res, _statusText, header) {
       //         console.log(header);
 
